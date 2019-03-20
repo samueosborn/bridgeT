@@ -1,3 +1,22 @@
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #333; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000; 
+}
+
 body{
     margin: 0;
     color:#000;
@@ -9,16 +28,20 @@ body{
 header{
     width:100%;
     height:60px;
-   background-color: #026fc2;
+    margin-bottom: 50px;
 }
 footer{
     width:100%;
     height:80px;
      background-color: #fff;
 }
+.drawer_key{
+  display: none;
+}
 a{
     text-decoration: none;
     cursor: pointer;
+    color:inherit;
 }
 p{
     margin-top: 0px;
@@ -32,6 +55,109 @@ p{
     letter-spacing: 0px;
     text-shadow: none;
 }
+
+.fullscreen-bg {
+    width: 100%;
+    min-height: 500px; 
+    overflow: hidden;
+  }
+  
+  .fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    height:auto;
+    width:auto;
+    z-index: -100;
+  }
+  
+ 
+.videoBanner-content{
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    background-color: #ff7642a1;
+
+}
+.videoBanner-content .container{
+  margin:auto;
+  margin-top: 20%;
+}
+.videoBanner-content .container h2{
+  font-family: Lato, sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+}
+.videoBanner-content .container p{
+  padding-top: 50px;
+}
+.videoBanner-content .container a img{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+  
+/* mobile view */
+@media (max-width: 767px) {
+  .fullscreen-bg {
+    background: url('https://media.giphy.com/media/irONsf3uB8H3a/giphy.gif') center center / cover no-repeat;
+  }
+ .drawer_key{
+    display: block;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+  .main_a{
+    display: none;
+  }
+  .header-div div{
+    justify-content: flex-end !important;
+  }
+  .videoBanner-content .container {
+    margin: auto;
+    margin-top: 45%;
+  }
+  .videoBanner-content .container h1{
+    font-size: 17px;
+    letter-spacing: 1px;
+  }
+}
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .fullscreen-bg {
+    background: url('https://media.giphy.com/media/irONsf3uB8H3a/giphy.gif') center center / cover no-repeat;
+  }
+ .drawer_key{
+    display: block;
+  }
+  .main_a{
+    display: none;
+  }
+  .header-div div{
+    justify-content: flex-end !important;
+  }
+  .fullscreen-bg__video {
+    display: none;
+  }
+  .videoBanner-content .container {
+    margin: auto;
+    margin-top: 45%;
+  }
+  .videoBanner-content .container h1{
+    font-size: 17px;
+    letter-spacing: 1px;
+  }
+  
+}
+
 .btn{
     margin-right: 0px;
     margin-bottom: 40px;
@@ -95,10 +221,11 @@ p{
     display: flex;
     justify-content: space-between;
     align-items:center;
-    width: 60%;
+    width: 80%;
     height: 100%;
     overflow: hidden;
     margin: 0 auto;
+    font-family: Lato, sans-serif;
     color:#fff;
 }
 .footer-div{
@@ -132,16 +259,22 @@ p{
 }
 .banner-1{
     /* The imag used */
-  background-image: url("../images/back.jpg");
+  /* background-image: url("../images/back.jpg"); */
+  background-color: #000;
   
 }
 .banner-2{
     /* The imag used */
   background-image: url("../images/image03.jpg");
+  /* background-color: #000; */
 }
 .about-ban{
     /* The imag used */
-    background-image: url("../images/theglobe.jpg");
+    /* background-image: url("../images/theglobe.jpg"); */
+    background-color: #fff;
+}
+.about-ban .heading{
+  color:#000 !important;
 }
 .banner-3{
     /* The imag used */
@@ -221,8 +354,9 @@ p{
     -webkit-transition: opacity 200ms ease;
     transition: opacity 200ms ease;
     font-family: Lato, sans-serif;
-    color: hsla(0, 0%, 98%, .81);
-    font-size: 24px;
+    color: inherit;
+    font-size: 17px;
+    font-weight: 400;
     text-align: center;
     text-transform: none;
     text-shadow: none;
@@ -264,6 +398,11 @@ p{
     align-items: center;
     width:30%;
     height: inherit;
+    color:#fff;
+}
+.header-div div a:hover{
+  font-size: 17px;
+  transition: 0.5s;
 }
 .text-left{
     text-align: left;
@@ -281,6 +420,9 @@ p{
 .left{
     float:left;
     
+}
+.center{
+  margin: 0 auto !important;
 }
 /*/////////////////////////////////////////////////////////////
                   grid system
