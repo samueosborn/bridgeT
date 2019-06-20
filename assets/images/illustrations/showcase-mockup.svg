@@ -1,0 +1,71 @@
+<svg width="1000" height="541.3333129882812" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <style type="text/css">.showcase-mockup-1-0{fill:#E7EAF3;}
+	.showcase-mockup-1-1{fill:#BDC5D1;}
+	.showcase-mockup-1-2{fill:none;stroke:#FFFFFF;}
+	.showcase-mockup-1-3{fill:#00DFFC;}
+	.showcase-mockup-1-4{fill:#FFC107;}
+	.showcase-mockup-1-5{fill:#97A4AF;}
+	.showcase-mockup-1-6{fill:none;stroke:#97A4AF;}
+	.showcase-mockup-1-7{fill:#FFFFFF;stroke:#E7EAF3;}
+	.showcase-mockup-1-8{fill:#F8FAFD;}
+	.showcase-mockup-1-9{fill:none;stroke:#E7EAF3;}
+	.showcase-mockup-1-10{fill:#FFFFFF;}</style>
+ <g class="currentLayer">
+  <title>Layer 1</title>
+  <circle id="svg_28" r="9.1" cy="486" cx="56.700001" stroke-miterlimit="10" stroke-width="3" class="showcase-mockup-1-2 fill-none stroke-white"/>
+  <circle id="svg_29" r="5.1" cy="459" cx="83.699997" stroke-miterlimit="10" stroke-width="2.5" class="showcase-mockup-1-2 fill-none stroke-white"/>
+  <g stroke="null" id="laptop">
+   <path stroke="null" id="svg_31" d="m874.893947,526.129864l-746.981274,0c-14.082915,0 -25.623081,-10.267533 -25.623081,-22.797403l0,-456.035082c0,-12.529871 11.540166,-22.797403 25.623081,-22.797403l747.079072,0c14.082915,0 25.623081,10.267533 25.623081,22.797403l0,456.122095c-0.097798,12.442858 -11.637964,22.71039 -25.720879,22.71039z" stroke-miterlimit="10" class="showcase-mockup-1-7 fill-white stroke-gray-300"/>
+   <circle stroke="null" id="svg_32" r="2.334442" cy="44.774001" cx="500.034138" class="showcase-mockup-1-0 fill-gray-300"/>
+   <path stroke="null" id="svg_33" d="m987.36167,513.251941l-971.525527,0c-1.46697,0 -2.738345,-1.131169 -2.738345,-2.436364l0,0c0,-1.305195 1.271374,-2.436364 2.738345,-2.436364l971.525527,0c1.46697,0 2.738345,1.131169 2.738345,2.436364l0,0c0,1.305195 -1.173576,2.436364 -2.738345,2.436364z" class="showcase-mockup-1-8 fill-gray-200"/>
+   <path stroke="null" id="svg_34" d="m501.598906,514.818175l-488.598906,-1.566234c0,0 23.569323,9.832468 115.206067,13.748052l371.828071,0l3.031739,0l371.828071,0c91.636744,-3.915585 115.206067,-13.748052 115.206067,-13.748052l-488.501108,1.566234z" fill="url(#showcaseMockup1_9)"/>
+   <path stroke="null" id="svg_35" d="m591.377488,514.557136l-179.948356,0c-1.858162,0 -3.422931,-1.392208 -3.422931,-3.045455l0,-3.045455l186.892016,0l0,3.045455c0,1.653247 -1.564768,3.045455 -3.520729,3.045455z" fill="url(#showcaseMockup1_10)"/>
+   <g stroke="null" id="svg_36">
+    <g stroke="null" id="svg_37">
+     <path stroke="null" d="m864.820751,465.829862l-730.160015,0c-2.249354,0 -4.107517,-1.653247 -4.107517,-3.654546l0,-401.651963c0,-2.001299 1.858162,-3.654546 4.107517,-3.654546l730.160015,0c2.249354,0 4.107517,1.653247 4.107517,3.654546l0,401.651963c0,2.088312 -1.858162,3.654546 -4.107517,3.654546z" class="showcase-mockup-1-0 fill-gray-300" id="showcaseMockup1_11"/>
+    </g>
+    <g stroke="null" id="svg_38">
+     <defs stroke="null" transform="translate(14,0) translate(10,51) translate(-356,1) translate(-11,1.5) scale(1,0.7956709861755371) translate(11,-1.5) translate(-1,643.4820556640625) scale(1,1.0609358549118042) translate(1,-643.4820556640625) translate(-1,29.023046493530273) scale(0.9779801964759827,1) translate(1,-29.023046493530273) translate(13.292702674865723,29.023046493530273) scale(1,1.0307692289352417) translate(-13.292702674865723,-29.023046493530273) ">
+      <path stroke="null" d="m1216,507.7l-746.6,0c-2.3,0 -4.2,-1.9 -4.2,-4.2l0,-461.6c0,-2.3 1.9,-4.2 4.2,-4.2l746.6,0c2.3,0 4.2,1.9 4.2,4.2l0,461.6c0,2.4 -1.9,4.2 -4.2,4.2z" id="showcaseMockup1_11"/>
+      <linearGradient stroke="null" y2="0.5" x2="1" y1="0.5" x1="0" id="showcaseMockup1_9">
+       <stop stroke="null" stop-color="#E7EAF3" offset="0.000001"/>
+       <stop stroke="null" stop-color="#F8FAFD" offset="0.052357"/>
+       <stop stroke="null" stop-color="#FDFDFD" offset="0.1708"/>
+       <stop stroke="null" stop-color="#FFFFFF" offset="0.5"/>
+       <stop stroke="null" stop-color="#FDFDFD" offset="0.8292"/>
+       <stop stroke="null" stop-color="#F8FAFD" offset="0.9476"/>
+       <stop stroke="null" stop-color="#E7EAF3" offset="0.9955"/>
+      </linearGradient>
+      <linearGradient stroke="null" y2="0.5" x2="1" y1="0.5" x1="0" id="showcaseMockup1_10">
+       <stop stroke="null" stop-color="#E7EAF3" offset="0.000001"/>
+       <stop stroke="null" stop-color="#F8FAFD" offset="0.052357"/>
+       <stop stroke="null" stop-color="#FDFDFD" offset="0.1708"/>
+       <stop stroke="null" stop-color="#FFFFFF" offset="0.5"/>
+       <stop stroke="null" stop-color="#FDFDFD" offset="0.8292"/>
+       <stop stroke="null" stop-color="#F8FAFD" offset="0.9476"/>
+       <stop stroke="null" stop-color="#E7EAF3" offset="0.9955"/>
+      </linearGradient>
+     </defs>
+     <clipPath stroke="null" transform="translate(14,0) translate(10,51) translate(-356,1) translate(-11,1.5) scale(1,0.7956709861755371) translate(11,-1.5) translate(-1,643.4820556640625) scale(1,1.0609358549118042) translate(1,-643.4820556640625) translate(-1,29.023046493530273) scale(0.9779801964759827,1) translate(1,-29.023046493530273) translate(13.292702674865723,29.023046493530273) scale(1,1.0307692289352417) translate(-13.292702674865723,-29.023046493530273) " id="showcaseMockup1_12">
+      <use stroke="null" x="-332" y="52" id="svg_39" xlink:href="#showcaseMockup1_11"/>
+     </clipPath>
+     <g stroke="null" id="svg_40" clip-path="url(#showcaseMockup1_12)">
+      
+     </g>
+    </g>
+    <g stroke="null" id="svg_41">
+    <image stroke="null" x="-331.684782" y="12.096845" xlink:href="../../img/755x470/img1.jpg" transform="matrix(0.9779801964759827,0,0,0.8701299034122326,454.91842651990055,0.26760066245886804) " height="600" width="755" id="SVGshowcaseMockup1Img1"/>
+     <!-- <path stroke="null" id="svg_42" d="m864.820751,465.829862l-730.160015,0c-2.249354,0 -4.107517,-1.653247 -4.107517,-3.654546l0,-401.651963c0,-2.001299 1.858162,-3.654546 4.107517,-3.654546l730.160015,0c2.249354,0 4.107517,1.653247 4.107517,3.654546l0,401.651963c0,2.088312 -1.858162,3.654546 -4.107517,3.654546z" stroke-miterlimit="10" class="showcase-mockup-1-9"/> -->
+    </g>
+   </g>
+  </g>
+ </g>
+ <g>
+  <title>Layer 2</title>
+  <rect fill="none" y="0" x="0" height="100%" width="100%" id="backgroundrect"/>
+ </g>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+</svg>

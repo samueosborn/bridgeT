@@ -1,0 +1,403 @@
+/* .............................................................. */
+.SlideWrapper {
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1665
+}
+
+.SlideWrapper--close {
+	animation: undim .4s ease-out forwards;
+	display: none;
+}
+
+.SlideWrapper--open {
+	animation: dim .3s ease-out forwards
+}
+
+.SlideModal {
+	transition: width .3s ease-out
+}
+
+.Slider_new_header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	color: #fff
+}
+
+.Slider_new_header h3 {
+	color: #80e721
+}
+
+.Slider_new_header button {
+	color: #fff
+}
+
+.Slider_new_body {
+	display: flex;
+	flex-direction: column;
+	height: 90%;
+	color: #fff;
+	justify-content: space-between;
+	margin-top: 30%;
+	
+}
+
+.Slider_new_body .bio,.Slider_new_body .ideal
+{
+	width: inherit;
+	display: flex;
+	flex-direction: column;
+		
+}
+.Slider_new_body .bio span,.Slider_new_body .ideal span
+{
+	font-size: 0.7rem;
+}
+
+.Slider_new_body .profile{
+  height: 120px;
+  width: inherit;
+  display: flex;
+ justify-content: space-between;
+ color: #fff;
+}
+
+.Slider_new_body .profile .avatar--info{
+	width: calc(100% - 96px);
+	height: 80px;
+	display: flex;
+   flex-direction: column;
+}
+
+.Slider_new_body .profile .avatar--info > span{
+	
+	height: 100%;
+	font-size: 0.9rem;
+}
+.Slider_new_body .profile .avatar--info > .name{
+	
+	height: 100%;
+	font-size: 1.9rem;
+	font-weight: bold; 
+}
+
+.Slider_new_body .bio{
+	min-height: 160px;
+	color: #fff;
+}
+
+
+.Slider_new_body .bio .bio--info
+{   
+	padding: 10px;
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+.Slider_new_body .ideal{
+	height: 160px;
+	color: #fff;
+}
+
+.Slider_new_body .ideal .ideal--info
+{   
+	padding: 10px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.Slider_new_body .ideal .ideal--info > .badge {
+	margin: 5px;
+	font-size: 0.9rem;
+	box-shadow: 8px 10px 20px 0px rgba(46, 61, 73, 0.15) !important;
+}
+
+
+.image--cover {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	object-fit: cover;
+	object-position: center right;
+	box-shadow: 8px 10px 20px 0px rgba(46, 61, 73, 0.15) !important;
+}
+
+.h-textRight {
+	text-align: right
+}
+
+.h-overflowHidden {
+	overflow: hidden!important
+}
+
+.h-overflowAuto {
+	overflow: auto!important
+}
+
+.h-displayFlex {
+	display: flex!important
+}
+
+.h-flexCol {
+	flex-direction: column!important
+}
+
+.h-flexSpaceBetween {
+	justify-content: space-between!important
+}
+
+.SlideModal {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: 50%;
+	min-width: 320px;
+	color: #fff;
+	background-color: #fff;
+	z-index: 1666
+}
+
+.SlideModal--right {
+	right: -50%
+}
+
+.SlideModal--left {
+	left: -50%
+}
+
+.SlideModal--open.SlideModal--right {
+	animation: slideIn--right .3s ease-out forwards
+}
+
+.SlideModal--open.SlideModal--left {
+	animation: slideIn--left .3s ease-out forwards
+}
+
+@media (max-width:520px) {
+	.SlideModal--open {
+		width: 100%
+	}
+}
+
+.SlideModal--close.SlideModal--right {
+	animation: slideOut--right .3s ease-out forwards;
+
+}
+
+.SlideModal--close.SlideModal--left {
+	animation: slideOut--left .3s ease-out forwards;
+}
+
+.SlideModal__header {
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	overflow: hidden;
+	box-shadow: 0 3px 2px 0 rgba(0, 0, 0, .2);
+	z-index: 667
+}
+
+
+
+form.Application-form div {
+	margin-top: 10px
+}
+
+form.Application-form input,
+form.Application-form select,
+form.Application-form textarea {
+	width: 100%;
+	background: transparent;
+	border: 0;
+	border-radius: 0;
+	border-bottom: 1px solid #b1c5c4;
+	color: #fff;
+	transition: .5s
+}
+
+form.Application-form select>option {
+	color: #333
+}
+
+form.Application-form .half {
+	width: 50%
+}
+
+form.Application-form .half-10 {
+	width: 40%
+}
+
+form.Application-form .full {
+	width: 100%
+}
+
+.flex_row {
+	justify-content: space-between
+}
+
+.flex_row,
+.flex_row_a {
+	display: flex;
+	flex-direction: row
+}
+
+.flex_row_a {
+	justify-content: center
+}
+
+[type=radio]:checked,
+[type=radio]:not(:checked) {
+	position: absolute;
+	left: -9999px
+}
+
+[type=radio]:checked+label,
+[type=radio]:not(:checked)+label {
+	position: relative;
+	padding-left: 28px;
+	cursor: pointer;
+	line-height: 20px;
+	display: inline-block;
+	color: #666
+}
+
+[type=radio]:checked+label:before,
+[type=radio]:not(:checked)+label:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 18px;
+	height: 18px;
+	border: 1px solid #ddd;
+	border-radius: 100%;
+	background: #fff
+}
+
+[type=radio]:checked+label:after,
+[type=radio]:not(:checked)+label:after {
+	content: "";
+	width: 12px;
+	height: 12px;
+	background: #80e721;
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	border-radius: 100%;
+	-webkit-transition: all .2s ease;
+	transition: all .2s ease
+}
+
+[type=radio]:not(:checked)+label:after {
+	opacity: 0;
+	-webkit-transform: scale(0);
+	transform: scale(0)
+}
+
+[type=radio]:checked+label:after {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1)
+}
+
+@keyframes dim {
+	0% {
+		background-color: transparent
+	}
+	to {
+		background-color: rgba(0, 0, 0, .5)
+	}
+}
+
+@keyframes undim {
+	0% {
+		background-color: rgba(0, 0, 0, .5)
+	}
+	to {
+		background-color: transparent
+	}
+}
+
+@keyframes slideIn--right {
+	0% {
+		right: -100%
+	}
+	to {
+		right: 0
+	}
+}
+
+@keyframes slideOut--right {
+	0% {
+		right: 0
+	}
+	to {
+		right: -100%
+	}
+}
+
+@keyframes slideIn--left {
+	0% {
+		left: -100%
+	}
+	to {
+		left: 0
+	}
+}
+
+@keyframes slideOut--left {
+	0% {
+		left: 0
+	}
+	to {
+		left: -100%
+	}
+}
+
+
+/* .............................................. */
+
+.Slider_ed_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 2;
+    height: 8%;
+    background-color: #fff;
+   
+}
+
+.Slider_ed_header .title {
+    width: 60%;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+
+
+
+/* ................................................. */
+textarea {
+    border: none;
+    border-bottom: 1px solid #8b94bd;
+    font-size: 0.85rem;
+    color: #333333ed;
+    width: 100%;
+}
+
+input,select {
+    border: none;
+    border-bottom: 1px solid #8b94bd;
+    font-size: 0.85rem;
+    color: #333333ed;
+    width: 100%;
+}
+
