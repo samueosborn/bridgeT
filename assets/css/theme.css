@@ -98,7 +98,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body{
   margin: 0;
   font-family: "Poppins", Helvetica, Arial, sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.5;
   color: #1e2022;
@@ -456,7 +456,7 @@ h6, .h6 {
 }
 
 .display-4 {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: 300;
   line-height: 1.2;
 }
@@ -12930,7 +12930,7 @@ button:focus {
   z-index: 1;
   background-color: #000;
   box-shadow: 0 1px 10px rgba(151, 164, 175, 0.1);
-  padding:20px 0;
+  padding:6px 0;
 }
 
 .u-header__section-divider {
@@ -22941,7 +22941,7 @@ margin-bottom: 0.1rem !important;
         
 
        #navBar .nav-item{
-         font-size: 1.3rem;
+         font-size: 1rem;
        }
 
 
@@ -23208,6 +23208,6 @@ form.Application-form input, form.Application-form textarea, form.Application-fo
 
 h1.logo {
     font-family: 'Montserrat', sans-serif;
-    font-size: 80px;
+    font-size: 70px;
     margin-bottom: 10px;
 }
