@@ -21162,7 +21162,7 @@ label.btn {
 }
 
 .gradient-half-primary-v1 {
-  background-image: linear-gradient(150deg, #ffc107ad 0%, #ffc107b8 100%);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.5)),url(../images/IMG-0059.jpg) center right;
   background-repeat: repeat-x;
 }
 
@@ -23210,4 +23210,30 @@ h1.logo {
     font-family: 'Montserrat', sans-serif;
     font-size: 70px;
     margin-bottom: 10px;
+}
+
+
+
+/* .......................--------------------------...................... */
+.banner-2 {
+  background-image: url(../images/image03.jpg);
+  /* background-color: #000; */
+}
+
+.backgns{
+   background: linear-gradient(0deg, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.5)), url(../images/IMG-0069.jpg) center top; 
+   background-position: center;
+   background-size: cover;
+}
+
+.banner-section {
+  width: 100%;
+  min-height: 300px;
+  overflow: hidden;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 81px;
+  padding-bottom: 81px;
 }
