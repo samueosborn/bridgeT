@@ -21162,7 +21162,7 @@ label.btn {
 }
 
 .gradient-half-primary-v1 {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.5)),url(../images/img0059.jpg) center right;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.5)),url(../images/img0059.JPG) center right;
   background-repeat: repeat-x;
 }
 
@@ -23221,7 +23221,7 @@ h1.logo {
 }
 
 .backgns{
-   background: linear-gradient(0deg, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.5)), url(../images/img0069.jpg) center top; 
+   background: linear-gradient(0deg, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.5)), url(../images/img0069.JPG) center top; 
    background-position: center;
    background-size: cover;
 }
