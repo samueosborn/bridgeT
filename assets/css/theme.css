@@ -433,8 +433,10 @@ h6, .h6 {
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.55rem;
   font-weight: 300;
+  font-style: italic;
+  font-family: 'Dancing Script', cursive;
 }
 
 .display-1 {
@@ -23236,4 +23238,88 @@ h1.logo {
   background-size: cover;
   padding-top: 81px;
   padding-bottom: 81px;
+}
+
+
+
+
+
+
+/* hgd new banner for esimonia;l */
+
+.banner-3 {
+  background-image: url(../images/img12.jpg);
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+
+#partners{
+  padding-top: 0 !important;
+}
+
+.stories-heading {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 10px;
+  padding-bottom: 25px;
+  clear: none;
+  font-family: Lato, sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  text-align: center;
+}
+.nonInclusiveLogo {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 100%;
+  text-align: center;
+  height: 65px;
+  width: 130px;
+  position: relative;
+  top: 0px;
+}
+.nonInclusiveLogo[data-company="caribou"] {
+  background-image: url(../images/brands/caribou-logo.png);
+}
+.nonInclusiveLogo[data-company="mastercard"] {
+  background-image: url(../images/brands/MastercardFoundation.png);
+}
+.nonInclusiveLogo[data-company="insightz_impact"] {
+  background-image: url(../images/brands/i2i.png);
+}
+.nonInclusiveLogo[data-company="launchpad"] {
+  background-image: url(../images/brands/GoogleDevelopers.png);
+}
+.nonInclusiveLogo[data-company="gates"] {
+  background-image: url(../images/brands/GatesLogo-white.png);
+}
+.nonInclusiveLogo[data-company="dfs_labs"] {
+  background-image: url(../images/brands/dfs_labs.svg);
+}
+.nonInclusiveLogo[data-company="finmark"] {
+  background-image: url(../images/brands/FinMark-Trust.png);
+}
+.nonInclusiveLogo[data-company="ecobank"] {
+  background-image: url(../images/brands/ecobank-logo.png);
+}
+.nonInclusiveLogo[data-company="cenfri"] {
+  background-image: url(../images/brands/Cenfri_Logo_Final.png);
+}
+
+
+.Grid a {
+  margin: 10px 0 !important;
+}
+.Grid {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  min-height: 70px;
 }
